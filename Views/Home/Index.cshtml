@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<label>The Answer is </label>
+<p>@ViewBag.Sum</p>
+
+<form method="post" asp-action=Index asp-controller = Home>
+    <label for="fnum">First Number</label><br />
+    <input type="text" name="FirstNumber" value="" ><br/><br/>
+    <p>@ViewBag.Error</p>
+    <label for="snum"></label>
+    <input type="text" name="SecondNumber" value="" ><br/><br/>
+
+    <input type="submit" value="submit" />
+
+</form>
