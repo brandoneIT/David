@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2f031df-8c40-49f9-a5fd-5c833ffb85bb": {
+      "ProjectGuid": "a2f031df-8c40-49f9-a5fd-5c833ffb85bb",
+      "DisplayName": "ContactApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
